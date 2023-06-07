@@ -212,16 +212,11 @@
 
     .services .services_main {
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 85%;
+        justify-content: center;
 
     }
 
-    .services .services_main {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-gap: 30px 10px;
-
-    }
 
     .footer_main {
         display: grid;

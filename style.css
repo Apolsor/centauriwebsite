@@ -31,12 +31,11 @@ img {
 
 .clickUp {
     position: fixed;
-    background: var(--side-nav);
-    border: 1px solid var(--color-sp);
+    background: #fff;
+    border: 1px solid #02cfff;
     width: 60px;
     height: 60px;
     z-index: 9999;
-    border: none;
     bottom: 30px;
     right: 5px;
     border-radius: 50%;
@@ -46,14 +45,13 @@ img {
 }
 
 .clickUp i {
-    color: white;
+    color: #02cfff;
     margin-top: 10px;
     font-size: 40px;
 }
 
 .clickUp:hover {
-    background: var(--body-color);
-    border: 1px solid var(--color-sp);
+    background: var(--color-navber);
 }
 
 .clickUp:hover i {
@@ -117,7 +115,7 @@ nav .nav-ber .logo-nav {
     position: absolute;
     left: 50px;
     text-decoration: none;
-    color: var(--body-color);
+    color: #fff;
     font-size: 23px;
     font-weight: 500;
 }
@@ -334,7 +332,7 @@ nav .nav-ber .darklight-x .dark_light {
     margin-top: 1px;
     height: 60px;
     top: 28px;
-    left: 164px;
+    left: 180px;
     border-radius: 50%;
     filter: drop-shadow(0 0 .2rem rgb(5, 204, 204));
     object-fit: cover;
@@ -349,7 +347,7 @@ nav .nav-ber .darklight-x .dark_light {
     width: 60px;
     height: 60px;
     top: -10px;
-    left: 130px;
+    left: 140px;
     border-radius: 50%;
     filter: drop-shadow(0 0 .2rem rgb(5, 204, 204));
     object-fit: cover;
